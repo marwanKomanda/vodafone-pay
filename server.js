@@ -16,5 +16,5 @@ app.post('/api/payment-webhook', (req, res) => {
     res.status(200).send('OK');
 });
 
-// تظبيط الخروج ليتوافق مع نظام Vercel
+
 module.exports = app;
